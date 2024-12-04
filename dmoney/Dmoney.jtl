@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1733332155241,772,login,200,OK,Payment 3-1,text,true,,611,318,1,3,https://dmoney.roadtocareer.net/user/login,772,0,638
+1733332155241,772,login,200,OK,Deposit 1-1,text,true,,611,318,1,3,https://dmoney.roadtocareer.net/user/login,772,0,639
+1733332155241,772,login,200,OK,Send money 2-1,text,true,,611,318,1,3,https://dmoney.roadtocareer.net/user/login,772,0,638
+1733332156134,127,payment to merchant,201,Created,Payment 3-1,text,true,,428,538,1,3,https://dmoney.roadtocareer.net/transaction/payment,127,0,0
+1733332156134,132,sendmoney to customer,201,Created,Send money 2-1,text,true,,431,540,1,2,https://dmoney.roadtocareer.net/transaction/sendmoney,132,0,0
+1733332156135,133,deposit to customer,208,Already Reported,Deposit 1-1,text,false,"Value in json path '$.message' expected to match regexp 'Deposit successful', but it did not match: 'Insufficient balance'",420,538,1,1,https://dmoney.roadtocareer.net/transaction/deposit,133,0,0
