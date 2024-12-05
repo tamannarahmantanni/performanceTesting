@@ -30,8 +30,6 @@ Perform load and stress testing for the following operations:
 - Stress test with bottleneck : https://drive.google.com/file/d/1O5dwkFEL6XjzGgcYlOMgOB3tRLbnuKjp/view?usp=sharing
 - Report for stress test : https://docs.google.com/spreadsheets/d/1j2C2jha3V176fSNTFhBx-NPoc7y4gFd5/edit?usp=sharing&ouid=113434615955561700751&rtpof=true&sd=true
 
-
-
 ###Task 2: Scenario-Based Testing for dmoney API
 
 ### Objective
